@@ -32,3 +32,11 @@ label {
   display: flex;
   flex-direction: column;
 }
+
+.form {
+  display: inline-block;
+}
+
+.form label {
+  margin-bottom: 10px;
+}
