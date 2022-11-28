@@ -8,8 +8,6 @@ let timerID = null;
 let userDate = null;
 const DELAY = 1000;
 
-require('flatpickr/dist/themes/dark.css');
-
 const options = {
   enableTime: true,
   time_24hr: true,
