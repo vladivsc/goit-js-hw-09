@@ -14,7 +14,7 @@ const options = {
   defaultDate: new Date(),
   minuteIncrement: 1,
   onClose(selectedDates) {
-    selectedDates[0] <= options.defaultDate
+    selectedDates[0] <= Date.now()
       ? (alert('Please choose a date in the future'),
         (refs.startBtn.disabled = true))
       : (refs.startBtn.disabled = false);
