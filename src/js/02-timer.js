@@ -2,8 +2,6 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import { convertMs } from './convertMs';
 
-const flatpickr = require('flatpickr');
-
 let timerID = null;
 let userDate = null;
 const DELAY = 1000;
